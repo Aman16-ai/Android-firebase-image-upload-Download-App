@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email_txt = email_et.getText().toString();
                 String pass_txt = pass_et.getText().toString();
-                if(email_txt == " " && pass_txt == " ") {
+                if(email_txt == " " || pass_txt == " ") {
                     Toast.makeText(MainActivity.this, "Please enter the email and password for login", Toast.LENGTH_SHORT).show();
                     
                 }
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email_txt = email_et.getText().toString();
                 String pass_txt = pass_et.getText().toString();
-                if(email_txt == " " && pass_txt == " ") {
+                if(email_txt == " " || pass_txt == " ") {
                     Toast.makeText(MainActivity.this, "Please enter the email and password for login", Toast.LENGTH_SHORT).show();
 
                 }
